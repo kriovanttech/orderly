@@ -5,13 +5,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-8">
           {/* Brand - Left side */}
           <div>
-            <img 
-              src="/Linea_Jewelry_Inc-2.svg" 
-              alt="Linea Jewelry Inc." 
-              className="mb-4 h-6 w-auto"
-            />
+            <h2 className="text-xl font-medium mb-4">Orderly</h2>
             <p className="text-sm font-light text-black/70 leading-relaxed max-w-md mb-6">
-              Minimalist jewelry crafted for the modern individual
+              Smart picks. Honest prices. Fast delivery.
             </p>
             
             {/* Contact Information */}
@@ -72,7 +68,7 @@ const Footer = () => {
       <div className="border-t border-[#e5e5e5] -mx-6 px-6 pt-2">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm font-light text-black mb-1 md:mb-0">
-            © 2024 Linea. All rights reserved. Template made by{" "}
+            © 2024 Orderly. All rights reserved. Template made by{" "}
             <a href="https://www.liljeros.co" target="_blank" rel="noopener noreferrer" className="hover:text-black/70 transition-colors underline">
               Rickard Liljeros
             </a>
