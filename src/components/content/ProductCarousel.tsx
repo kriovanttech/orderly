@@ -27,49 +27,54 @@ const products: Product[] = [
     id: 1,
     name: "Pantheon",
     category: "Earrings",
-    price: "€2,850",
+    price: "₹2,71,000",
     image: pantheonImage,
   },
   {
     id: 2,
     name: "Eclipse",
     category: "Bracelets",
-    price: "€3,200",
+    price: "₹3,04,000",
     image: eclipseImage,
   },
   {
     id: 3,
     name: "Halo",
     category: "Earrings",
-    price: "€1,950",
+    price: "₹1,85,500",
     image: haloImage,
   },
   {
     id: 4,
     name: "Oblique",
     category: "Earrings",
-    price: "€1,650",
+    price: "₹1,56,750",
     image: obliqueImage,
   },
   {
     id: 5,
     name: "Lintel",
     category: "Earrings",
-    price: "€2,250",
+    price: "₹2,13,750",
     image: lintelImage,
   },
   {
     id: 6,
     name: "Shadowline",
     category: "Bracelets",
-    price: "€3,950",
+    price: "₹3,75,250",
     image: shadowlineImage,
   },
 ];
 
 const ProductCarousel = () => {
   return (
-    <section className="w-full mb-16 px-6">
+    <section className="w-full mb-24 px-6 py-8">
+      <div className="max-w-7xl mx-auto mb-6">
+        <h2 className="text-lg font-semibold text-foreground mb-2">Featured Collection</h2>
+        <p className="text-base font-light text-foreground/60">Discover our curated selection of timeless pieces</p>
+      </div>
+      <div className="max-w-7xl mx-auto">
       <Carousel
           opts={{
             align: "start",
@@ -124,6 +129,7 @@ const ProductCarousel = () => {
             ))}
           </CarouselContent>
         </Carousel>
+      </div>
     </section>
   );
 };

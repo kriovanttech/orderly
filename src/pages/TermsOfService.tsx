@@ -119,7 +119,7 @@ const TermsOfService = () => {
             <section>
               <h2 className="text-2xl font-light text-foreground mb-4">Governing Law</h2>
               <p className="text-muted-foreground leading-relaxed">
-                These terms and conditions are governed by and construed in accordance with the laws of New York State, and you irrevocably submit to the exclusive jurisdiction of the courts in that state or location.
+                These terms and conditions are governed by and construed in accordance with the laws of India, and you irrevocably submit to the exclusive jurisdiction of the courts in that country or location.
               </p>
             </section>
 
@@ -136,9 +136,9 @@ const TermsOfService = () => {
                 If you have any questions about these Terms of Service, please contact us at:
               </p>
               <div className="mt-4 text-muted-foreground">
-                <p>Email: legal@lineajewelry.com</p>
-                <p>Phone: +1 (212) 555-0123</p>
-                <p>Address: 123 Madison Avenue, New York, NY 10016</p>
+                <p>Email: legal@orderly.in</p>
+                <p>Phone: +91 (80) 1234-5678</p>
+                <p>Address: 123 MG Road, Bengaluru, KA 560001</p>
               </div>
             </section>
           </div>

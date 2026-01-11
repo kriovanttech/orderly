@@ -9,28 +9,28 @@ interface Store {
 
 const stores: Store[] = [
   {
-    name: "LINEA Madison Avenue",
-    address: "789 Madison Avenue, New York, NY 10065",
-    phone: "+1 (212) 555-0123",
+    name: "Orderly Bangalore",
+    address: "789 MG Road, Bengaluru, KA 560001",
+    phone: "+91 (80) 1234-5678",
     hours: "Mon-Sat: 10AM-8PM, Sun: 12PM-6PM",
-    lat: 40.7614,
-    lng: -73.9776
+    lat: 12.9716,
+    lng: 77.5946
   },
   {
-    name: "LINEA Beverly Hills", 
-    address: "456 Rodeo Drive, Beverly Hills, CA 90210",
-    phone: "+1 (310) 555-0456",
+    name: "Orderly Mumbai", 
+    address: "456 Marine Drive, Mumbai, MH 400036",
+    phone: "+91 (22) 5678-1234",
     hours: "Mon-Sat: 10AM-8PM, Sun: 12PM-6PM",
-    lat: 34.0696,
-    lng: -118.4014
+    lat: 18.9596,
+    lng: 72.8295
   },
   {
-    name: "LINEA SoHo",
-    address: "123 Spring Street, New York, NY 10012", 
-    phone: "+1 (212) 555-0789",
+    name: "Orderly Delhi",
+    address: "123 Connaught Place, New Delhi, DL 110001", 
+    phone: "+91 (11) 9012-3456",
     hours: "Mon-Sat: 11AM-8PM, Sun: 12PM-7PM",
-    lat: 40.7253,
-    lng: -74.0022
+    lat: 28.6304,
+    lng: 77.2177
   }
 ];
 

@@ -51,7 +51,7 @@ const Checkout = () => {
     {
       id: 1,
       name: "Pantheon Ring",
-      price: "€2,450",
+      price: "₹2,32,750",
       quantity: 1,
       image: pantheonImage,
       size: "54 EU / 7 US"
@@ -59,7 +59,7 @@ const Checkout = () => {
     {
       id: 2,
       name: "Eclipse Earrings", 
-      price: "€1,850",
+      price: "₹1,75,750",
       quantity: 1,
       image: eclipseImage
     }

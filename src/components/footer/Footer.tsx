@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <footer className="w-full bg-white text-black pt-8 pb-2 px-6 border-t border-[#e5e5e5] mt-48">
-      <div className="">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-8">
+    <footer className="w-full bg-white text-black pt-16 pb-8 px-6 border-t border-[#e5e5e5] mt-32">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-12">
           {/* Brand - Left side */}
           <div>
             <h2 className="text-xl font-medium mb-4">Orderly</h2>
@@ -14,13 +14,13 @@ const Footer = () => {
             <div className="space-y-2 text-sm font-light text-black/70">
               <div>
                 <p className="font-normal text-black mb-1">Visit Us</p>
-                <p>123 Madison Avenue</p>
-                <p>New York, NY 10016</p>
+                <p>123 MG Road</p>
+                <p>Bengaluru, KA 560001</p>
               </div>
               <div>
                 <p className="font-normal text-black mb-1 mt-3">Contact</p>
-                <p>+1 (212) 555-0123</p>
-                <p>hello@lineajewelry.com</p>
+                <p>+91 (80) 1234-5678</p>
+                <p>hello@orderly.in</p>
               </div>
             </div>
           </div>

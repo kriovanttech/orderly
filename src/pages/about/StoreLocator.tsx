@@ -9,23 +9,23 @@ import AboutSidebar from "../../components/about/AboutSidebar";
 const StoreLocator = () => {
   const stores = [
     {
-      name: "LINEA Madison Avenue",
-      address: "789 Madison Avenue, New York, NY 10065",
-      phone: "+1 (212) 555-0123",
+      name: "Orderly Bangalore",
+      address: "789 MG Road, Bengaluru, KA 560001",
+      phone: "+91 (80) 1234-5678",
       hours: "Mon-Sat: 10AM-8PM, Sun: 12PM-6PM",
       services: ["Personal Shopping", "Custom Design", "Repairs", "Appraisals"]
     },
     {
-      name: "LINEA Beverly Hills",
-      address: "456 Rodeo Drive, Beverly Hills, CA 90210",
-      phone: "+1 (310) 555-0456",
+      name: "Orderly Mumbai",
+      address: "456 Marine Drive, Mumbai, MH 400036",
+      phone: "+91 (22) 5678-1234",
       hours: "Mon-Sat: 10AM-8PM, Sun: 12PM-6PM",
       services: ["Personal Shopping", "Custom Design", "VIP Suites", "Repairs"]
     },
     {
-      name: "LINEA SoHo",
-      address: "123 Spring Street, New York, NY 10012",
-      phone: "+1 (212) 555-0789",
+      name: "Orderly Delhi",
+      address: "123 Connaught Place, New Delhi, DL 110001",
+      phone: "+91 (11) 9012-3456",
       hours: "Mon-Sat: 11AM-8PM, Sun: 12PM-7PM",
       services: ["Browse & Buy", "Repairs", "Gift Wrapping"]
     }
