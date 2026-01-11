@@ -181,14 +181,14 @@ const products: Product[] = [
     id: 23,
     name: "Celestial",
     category: "Earrings",
-    price: "€2,250",
+    price: "₹2,13,750",
     image: lintelImage,
   },
   {
     id: 24,
     name: "Ethereal",
     category: "Bracelets",
-    price: "€3,750",
+    price: "₹3,56,250",
     image: shadowlineImage,
   },
 ];
